@@ -5,3 +5,88 @@ This is third line
 
 Second Line
 
+
+
+
+git config --global help.autocorrect 1
+git config --global code.editor "vim"
+
+
+
+git config --global user.name "lokendras"
+git config --global user.email "lokendra2k@gmail.com"
+
+
+
+
+
+
+
+vi .gitignore
+git status
+git add .
+git commit -m "added git ignore"
+git status
+touch temp abc.txt xyz.py ravi
+git status
+
+
+git log --pretty=format:"%h - %an - %ar - %s"
+
+
+
+
+
+
+touch newf
+git add .
+git status
+git stash
+git status
+touch oldf
+git add .
+git stash
+git status
+git stash list
+git shash show stash@{0}
+git stash apply stash@{0}
+
+
+
+https://guides.github.com/activities/hello-world/
+
+
+https://github.com/lerndevops/samplejavaapp
+
+pmd, checkstyle, findbug
+cobertura
+BuildPipeline
+Artifactory
+SonarQube Scanner
+
+
+-P metrics pmd:pmd
+
+
+DTR - Docker registry for Enterprise
+
+docker rm -f `docker ps -aq`
+
+
+
+"ansible awx" for UI
+
+Trainer - Ravindranath
+
+
+Docker has rolling updates
+
+
+F5 is a load balancer
+
+
+
+https://github.com/lerndevops
+https://github.com/leaddevops
+
+apache-benchmark for load testing
